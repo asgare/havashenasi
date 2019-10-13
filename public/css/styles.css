@@ -1,0 +1,50 @@
+.start{
+    direction: rtl;
+    color: #333333;
+    font-family: tahoma;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    min-height: 85vh; /* vh means view port hight ...means that discrete all content through out page hight*/
+    display: flex;
+    flex-direction: column;
+}
+.main-content{
+    flex-grow: 1;
+}
+img{
+    width: 550px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 0;
+}
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 15px;
+}
+header{
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+header a {
+    color: #888888;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px ;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: honeydew;
+    padding: 8px ;
+}
