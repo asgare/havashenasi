@@ -11,7 +11,7 @@ weatherForm.addEventListener('submit', (e) =>{
     messageOne.textContent = 'لطفا كمي صبر كنيد'
     messageTwo.textContent = ''
     const location = search.value
-        fetch( 'http://localhost:5000/weather?address=' + location ).then((data)=>{
+        fetch( '/weather?address=' + location ).then((data)=>{
         data.json().then((data)=>{
             if (data.error) {
                 messageOne.textContent = data.error       
